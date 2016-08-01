@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<file>
+	<setup>
+		<gridSettings>
+			<height>400</height>
+			<width>400</width>
+			<cellsHigh>30</cellsHigh>
+			<cellsWide>30</cellsWide>
+			<cellShape>hexagon</cellShape>
+			<cellEdges>outline</cellEdges>
+			<cellEdgesColor>gray</cellEdgesColor>
+			<gridEdges>tor</gridEdges>
+			<!-- gridEdges>finite</gridEdges -->
+			<neighborsType>cardinal</neighborsType>
+			<!-- neighborsType>diagonal</neighborsType -->
+			<!-- neighborsType>all</neighborsType -->
+		</gridSettings>
+		<simulationSettings>
+			<simulation>FireMatrix</simulation>
+			<simulationName>I'm Burning For You</simulationName>
+			<simulationAuthor>Bailey</simulationAuthor>
+			<burnProbability>0.5</burnProbability>
+			<satisfactionRate>0.5</satisfactionRate>
+			<sharkBirthRate>4</sharkBirthRate>
+			<sharkDeathRate>3</sharkDeathRate>
+			<fishBirthRate>4</fishBirthRate>
+			<maximumAntsPerCell>10</maximumAntsPerCell>
+			<foodPheromone>10</foodPheromone>
+			<homePheromone>10</homePheromone>
+			<sugarGrowthRate>2</sugarGrowthRate>
+			<sugarGrowthInterval>1</sugarGrowthInterval>
+			<patchMaxCapacity>6</patchMaxCapacity>
+			<agentMetabolism>2</agentMetabolism>
+			<agentVision>1</agentVision>
+			<agentInitalSugarLevel>10</agentInitalSugarLevel>
+			<simulationSpecific>
+				<zerocolor>gray</zerocolor>
+				<onecolor>gray</onecolor>
+				<twocolor>gray</twocolor>
+				<zeroproportion>0</zeroproportion>
+				<oneproportion>.99</oneproportion>
+				<twoproportion>.01</twoproportion>
+				<zeroimage></zeroimage>
+				<oneimage>resources/tree.png</oneimage>
+				<twoimage>resources/fire.png</twoimage>
+			</simulationSpecific>
+		</simulationSettings>
+	</setup>
+</file>
